@@ -20,16 +20,8 @@ const Hero = () => {
       >
         I’m <span className="text-gray-400">Poorva</span>
       </motion.h2>
-      {/* <motion.p
-      className="text-lg md:text-xl py-2 mt-4 text-gray-400"
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: 0.4, duration: 0.8 }}
-    >
-      A Frontend Developer
-    </motion.p> */}
       <motion.p
-        className="text-lg md:text-xl py-2 mt-4 text-gray-400 w-3/4"
+        className="text-lg md:text-xl pt-5 pb-10 mt-4 text-gray-400 w-4/6"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.4, duration: 0.8 }}
@@ -39,7 +31,7 @@ const Hero = () => {
         usability.
       </motion.p>
       <motion.button
-        className="rounded-3xl border-2 border-gray-400 px-4 py-2 mt-4"
+        className="rounded-3xl border-2 border-gray-400 px-4 py-2 mt-4 text-lg"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.4, duration: 0.8 }}
