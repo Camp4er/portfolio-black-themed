@@ -22,16 +22,60 @@ const Skills = () => {
         an eye for design to create seamless, responsive, and accessible user
         experiences.
       </motion.p>
-      <figure>
-        <div className="tile tile--center tile--hover tile--4to3">
-          <div className="tile__content">
-            <img src="/icon-clock.0dea988d.png" alt="clock" />
-          </div>
-        </div>
-        <figcaption>
-          How Apple beat Swiss watchmakers at their own game
-        </figcaption>
-      </figure>
+      <div className="flex flex-row justify-between items-center w-4/6">
+      <motion.p
+        className="text-xl md:text-2xl pt-5 pb-5 text-gray-400"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.4, duration: 0.8 }}
+      >
+        1.  Languages & Frameworks
+        </motion.p>
+        <motion.button
+        className="rounded-3xl border-2 border-gray-400 px-3 py-2 text-lg"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.4, duration: 0.8 }}
+      >
+        {"-> "}
+      </motion.button>
+      </div>
+      <div className="flex flex-row justify-between items-center w-4/6">
+      <motion.p
+        className="text-xl md:text-2xl pt-5 pb-5 text-gray-400"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.4, duration: 0.8 }}
+      >
+        2.  Tools & Software
+        </motion.p>
+        <motion.button
+        className="rounded-3xl border-2 border-gray-400 px-3 py-2 text-lg"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.4, duration: 0.8 }}
+      >
+        {"-> "}
+      </motion.button>
+      </div>
+      <div className="flex flex-row justify-between items-center w-4/6">
+      <motion.p
+        className="text-xl md:text-2xl pt-5 pb-5 text-gray-400"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.4, duration: 0.8 }}
+      >
+        3.  Soft Skills
+        </motion.p>
+        <motion.button
+        className="rounded-3xl border-2 border-gray-400 px-3 py-2 text-lg"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.4, duration: 0.8 }}
+      >
+        {"-> "}
+      </motion.button>
+      </div>
     </section>
   );
 };
