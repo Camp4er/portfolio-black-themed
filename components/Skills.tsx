@@ -32,12 +32,12 @@ const Skills = () => {
         1.  Languages & Frameworks
         </motion.p>
         <motion.button
-        className="rounded-3xl border-2 border-gray-400 px-3 py-2 text-lg"
+        className="rounded-3xl border-2 border-gray-400 px-4 py-2 text-lg"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.4, duration: 0.8 }}
       >
-        {"-> "}
+        +
       </motion.button>
       </div>
       <div className="flex flex-row justify-between items-center w-4/6">
@@ -50,12 +50,12 @@ const Skills = () => {
         2.  Tools & Software
         </motion.p>
         <motion.button
-        className="rounded-3xl border-2 border-gray-400 px-3 py-2 text-lg"
+        className="rounded-3xl border-2 border-gray-400 px-4 py-2 text-lg"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.4, duration: 0.8 }}
       >
-        {"-> "}
+        +
       </motion.button>
       </div>
       <div className="flex flex-row justify-between items-center w-4/6">
@@ -68,12 +68,12 @@ const Skills = () => {
         3.  Soft Skills
         </motion.p>
         <motion.button
-        className="rounded-3xl border-2 border-gray-400 px-3 py-2 text-lg"
+        className="rounded-3xl border-2 border-gray-400 px-4 py-2 text-lg"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.4, duration: 0.8 }}
       >
-        {"-> "}
+        +
       </motion.button>
       </div>
     </section>
