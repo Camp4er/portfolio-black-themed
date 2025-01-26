@@ -1,14 +1,53 @@
-import React from 'react'
+import React from "react";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <section className="h-screen flex items-center justify-center">
-      <div className="text-center">
-        <h1 className="text-6xl font-bold">Poorva Saxena</h1>
-        <p className="mt-4 text-2xl">Frontend Developer</p>
-      </div>
+    <section className="text-left mx-auto w-[58.5%] max-w-[1140px] pt-[57px]">
+      <motion.h1
+        className="text-4xl md:text-5xl font-bold py-2"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+      >
+        Hi!
+      </motion.h1>
+      <motion.h2
+        className="text-4xl md:text-5xl py-2 font-bold mt-2"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.2, duration: 0.8 }}
+      >
+        I’m <span className="text-gray-400">Poorva</span>
+      </motion.h2>
+      {/* <motion.p
+      className="text-lg md:text-xl py-2 mt-4 text-gray-400"
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: 0.4, duration: 0.8 }}
+    >
+      A Frontend Developer
+    </motion.p> */}
+      <motion.p
+        className="text-lg md:text-xl py-2 mt-4 text-gray-400 w-3/4"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.4, duration: 0.8 }}
+      >
+        I’m a front-end developer dedicated to designing seamless, accessible,
+        and engaging digital experiences that prioritize simplicity and
+        usability.
+      </motion.p>
+      <motion.button
+        className="rounded-3xl border-2 border-gray-400 px-4 py-2 mt-4"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.4, duration: 0.8 }}
+      >
+        Try the fun side {"-> "}
+      </motion.button>
     </section>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
