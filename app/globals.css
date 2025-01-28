@@ -21,3 +21,9 @@
 body {
   font-family: 'Inter', sans-serif;
 }
+
+section {
+  background-image: url(/grid.png);
+  background-repeat: repeat-y;
+  background-size: contain;
+}

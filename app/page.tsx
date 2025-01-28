@@ -7,7 +7,7 @@ import Skills from "@/components/Skills";
 
 export default function Home() {
   return (
-    <main className="relative">
+    <main className="relative mb-5">
       <Hero />
       <Skills/>
       <Projects/>
