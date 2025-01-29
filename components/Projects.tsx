@@ -54,7 +54,7 @@ const projectData = [
 
 const Projects = () => {
   return (
-    <section className="text-left mx-auto w-[58.5%] max-w-[1140px] pt-[57px]">
+    <section className="text-left mx-auto w-[68.5%] max-w-[1140px] pt-[57px]">
       {/* Header */}
       <motion.h1
         className="text-4xl md:text-5xl font-bold py-2"
